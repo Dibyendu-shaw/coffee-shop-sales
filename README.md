@@ -1,5 +1,5 @@
-# coffee-shop-sales
-📌Project Overview
+# ☕ Coffee Shop Sales Analysis (Jan–June 2023)
+##📌Project Overview
 This project involves a comprehensive analysis of over 149,000 transactions for a multi-location coffee shop. The goal was to transform raw transactional data into actionable business intelligence to optimize inventory, staffing, and sales strategy.
 
 📊 Key Insights (Data-Driven)
