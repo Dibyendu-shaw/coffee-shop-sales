@@ -1,35 +1,123 @@
+
 # ☕ Coffee Shop Sales Analysis (Jan–June 2023)
-##📌Project Overview
-This project involves a comprehensive analysis of over 149,000 transactions for a multi-location coffee shop. The goal was to transform raw transactional data into actionable business intelligence to optimize inventory, staffing, and sales strategy.
 
-📊 Key Insights (Data-Driven)
-Revenue Performance: Analyzed a total revenue of $698,812.33. Identified Coffee ($269,952) and Tea ($196,405) as the primary revenue drivers.
+## 📌 Project Overview
 
-Inventory Efficiency: Pinpointed Packaged Chocolate ($4,407) and Flavours ($8,408) as the lowest-performing categories, contributing less than 2% to total sales. Recommended a 25% reduction in these stocks to free up working capital.
+This project analyzes **149,116 transactions** recorded between **January 1, 2023 and June 30, 2023** across 3 store locations.
 
-Sales Seasonality: Discovered that Fridays are the highest-earning days ($101,373), while Saturdays show a surprising dip in volume (20,510 transactions), suggesting a heavy commuter customer base rather than weekend tourists.
+The analysis focuses on identifying sales trends, product performance, store comparison, and time-based customer behavior using Microsoft Excel.
 
-Operational Peak: Identified the 8:00 AM – 10:00 AM window as the critical "Rush Hour," accounting for the highest transaction density.
+---
 
-🛠️ Technical Workflow
-Data Cleaning (Power Query): Handled 149,000+ rows, removed duplicates, standardized date/time formats, and handled null values in product details.
+## 📊 Dataset Summary
 
-Feature Engineering: Created new columns for "Total Bill," "Hour of Day," and "Day Name" to enable deeper time-series analysis.
+* 📅 Time Period: **6 Months (181 Days)**
+* 🧾 Total Transactions: **149,116**
+* 🏬 Store Locations: **3**
+* 📦 Product Categories: **9**
+* 🛍️ Product Types: **29**
+* 🧃 Product Details: **45**
+* 📏 Product Sizes: **4**
 
-Data Modeling: Built Pivot Tables to aggregate sales by category, size, and location.
+---
 
-Interactive Dashboard: Developed a dynamic UI using Slicers and Timelines, allowing stakeholders to filter data by Month, Location, and Product Category instantly.
+## 📈 Key Calculated Metrics
 
-📈 Visualizations Included
-Total Sales by Category: (Bar Chart)
+### 🔢 Transaction Volume
 
-Daily Transaction Trends: (Line Chart)
+* **Average Transactions per Month**
+  → 149,116 ÷ 6 ≈ **24,853 transactions per month**
 
-Sales Heatmap by Hour: (To optimize staffing)
+* **Average Transactions per Day**
+  → 149,116 ÷ 181 ≈ **824 transactions per day**
 
-Product Proportion: (Pie/Donut Chart for Category Mix)
+This indicates strong and consistent daily footfall across locations.
 
-🚀 Recommendations
-Bundle Strategy: Increase the Average Order Value (currently ~$4.68) by bundling high-margin Bakery items with top-selling Coffee during the morning rush.
+---
 
-Staffing: Reallocate staff from Saturday shifts to Friday mornings to reduce wait times and improve customer retention during peak hours.
+## 🏬 Store Locations
+
+* Astoria
+* Hell's Kitchen
+* Lower Manhattan
+
+The project compares:
+
+* Total transactions per store
+* Revenue contribution by store
+* Sales trends across locations
+
+---
+
+## 🛍️ Product Insights
+
+Your dataset includes:
+
+* 9 major product categories (e.g., Coffee, Tea, Bakery, etc.)
+* 29 product types
+* 45 detailed product variations
+* 4 different sizes
+
+The analysis identifies:
+
+* Top-performing categories
+* Best-selling product details
+* Most popular size
+* Quantity vs revenue contribution
+
+---
+
+## ⏰ Time-Based Analysis
+
+Using:
+
+* Month Name
+* Day Name
+* Hour
+* Day of Week
+
+The project analyzes:
+
+* Monthly sales trends (Jan → June comparison)
+* Peak sales hours
+* Weekday vs Weekend performance
+* Best-performing month
+* Customer buying patterns by time of day
+
+---
+
+## 📊 Dashboard KPIs
+
+The Excel dashboard includes:
+
+* Total Transactions: **149,116**
+* Monthly Average Transactions: **24,853**
+* Daily Average Transactions: **824**
+* Sales by Store Location
+* Sales by Product Category
+* Hourly Sales Distribution
+* Top 10 Products
+* Interactive slicers (Month, Store, Category)
+
+---
+
+## 📌 Business-Level Insights
+
+Based on the analysis:
+
+* The business processes **over 800 transactions daily**, showing strong demand.
+* A clear pattern of peak sales hours can help optimize staffing.
+* One or more locations contribute higher transaction volume.
+* Certain product categories dominate overall sales.
+* Size preference impacts total quantity sold.
+
+---
+
+## 🎯 What This Project Demonstrates
+
+* Real-world transactional data analysis
+* Handling large datasets (149K+ records)
+* Business KPI calculation
+* Time-series trend analysis
+* Dashboard development using Excel
+* Data-driven decision-making
